@@ -30,7 +30,7 @@ Param(
     # comma or semicolon separated list of chocolatey packages.
     [ValidateNotNullOrEmpty()]
     [string]
-    $RawPackagesList="sql-server-management-studio"
+    $RawPackagesList
 )
 
 ##################################################################################################
